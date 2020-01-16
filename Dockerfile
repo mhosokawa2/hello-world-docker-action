@@ -1,9 +1,8 @@
-# ƒR[ƒh‚ðŽÀs‚·‚éƒRƒ“ƒeƒiƒCƒ[ƒW
+# ã‚³ãƒ¼ãƒ‰ã‚’å®Ÿè¡Œã™ã‚‹ã‚³ãƒ³ãƒ†ãƒŠã‚¤ãƒ¡ãƒ¼ã‚¸
 FROM alpine:3.10
 
-# ƒAƒNƒVƒ‡ƒ“‚ÌƒŠƒ|ƒWƒgƒŠ‚©‚çƒR[ƒhƒtƒ@ƒCƒ‹‚ðƒtƒ@ƒCƒ‹ƒVƒXƒeƒ€ƒpƒX‚ÖƒRƒs[
-`/` of the container
+# ã‚¢ã‚¯ã‚·ãƒ§ãƒ³ãƒªãƒã‚¸ãƒˆãƒªã‹ã‚‰ã‚³ãƒ³ãƒ†ãƒŠã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚·ã‚¹ãƒ†ãƒ ãƒ‘ã‚¹`/`ã«ã‚³ãƒ¼ãƒ‰ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚³ãƒ”ãƒ¼ã—ã¾ã™
 COPY entrypoint.sh /entrypoint.sh
 
-# dockerƒRƒ“ƒeƒi‚ª‹N“®‚·‚éÛ‚ÉŽÀs‚³‚ê‚éƒR[ƒhƒtƒ@ƒCƒ‹ (`entrypoint.sh`)
+# Dockerã‚³ãƒ³ãƒ†ãƒŠã®èµ·å‹•æ™‚ã«å®Ÿè¡Œã™ã‚‹ã‚³ãƒ¼ãƒ‰ãƒ•ã‚¡ã‚¤ãƒ«ï¼ˆ`entrypoint.sh`ï¼‰
 ENTRYPOINT ["/entrypoint.sh"]
